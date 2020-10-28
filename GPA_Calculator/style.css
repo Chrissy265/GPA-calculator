@@ -1,0 +1,23 @@
+
+
+
+h1{font-size:1.6rem;} 
+h2{font-size: 1.4rem;}
+h4{font-size: 1.2rem;}
+.calc{margin-top:20px;}
+.calc button img{ filter:invert(1);}
+#tbl tbody tr td:nth-child(2) {width:100px;}
+#tbl tbody tr td:nth-child(3) {width:100px;}
+.dtable{text-align:center}
+.dtable td {width:100px}
+#tbl tbody tr td:first-child input {width:100%;}
+#gpacircle, #finalcircle {margin:0 auto; float:none;}
+@media all and (max-width:320px) {
+    .calc button img {display:none;}
+}
+@media all and (max-width: 576px) {
+    .calc{padding:10px; width:100%;}
+}
+@media all and (min-width: 577px){
+    .calc{padding:15px; max-width:450px;}
+}
